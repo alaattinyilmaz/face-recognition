@@ -2,13 +2,6 @@
 Computer Vision face recognition and reconstruction by PCA method.
 All the equation and procedure below is explained in my report detailly: https://github.com/alaattinyilmaz/face-recognition/blob/master/face-recognition.pdf
 
-### Background Information
-As a starting point, we will treat an N x M image as a vector in NM-dimensional space (form
-vector by collapsing rows from top to bottom into one long vector). Then I convert x into v1
-and v2 coordinates. Where v1 measures distance for classification and v2 measures positon to specify the point. 
-
-x = ((x-xbar).v1, (x-xbar).v2)
-
 ### Face Detection & Dataset
 
 I will be given an image dataset consisting of 10 images (56×46) taken from different views of 40 people. You can use 9 images per person to build your model and the rest for testing its performance. Note that, in the given dataset the images are already flattened and concatenated therefore it has 2576 (56×46) columns and 400 rows. A sample of the dataset is shown in the figure below:
