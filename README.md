@@ -1,5 +1,6 @@
 # face-recognition
-Computer Vision face recognition and reconstruction by PCA method
+Computer Vision face recognition and reconstruction by PCA method.
+All the equation and procedure below is explained in my report detailly: https://github.com/alaattinyilmaz/face-recognition/blob/master/face-recognition.pdf
 
 ### Background Information
 As a starting point, we will treat an N x M image as a vector in NM-dimensional space (form
