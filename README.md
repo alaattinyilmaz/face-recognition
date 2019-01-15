@@ -1,7 +1,7 @@
 # face-recognition
 Computer Vision face recognition and reconstruction by PCA method.
 
-All the equation and procedure below is explained in my report detailly: https://github.com/alaattinyilmaz/face-recognition/blob/master/face-recognition.pdf
+All the required equations and procedure below is explained in my report detailly: https://github.com/alaattinyilmaz/face-recognition/blob/master/face-recognition.pdf
 
 ### Face Detection & Dataset
 
