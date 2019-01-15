@@ -15,6 +15,9 @@ eigenvalues. Large eigenvalue shows the most variation in the face which represe
 the all faces in the training set. We can interpret that the reconstructed face is the weighted sum of the all faces plus mean characteristics of the face that seems really reasonable. In addition to these, we also determined a threshold value by subtracting mean of the faces from the constructed image. Norm of this error should be smaller than our threshold value in order
 to be detected as a face. We chose threshold as 8 by experimentally.
 
+![Reconstruction](https://serving.photos.photobox.com/00439145202d7b057766e431b2d8329ff5bee321304e3c17f2b662267d5a459bcf0ddb8e.jpg)
+
+
 ### Face Recognition
 
 To achieve face recognition, we will create a database that consists of the descriptors of all the images in the training set (a1,a2…aK). Then we will compute the descriptor of the test image and find the Euclidian distance of it from all the values in the database. Then we will take the image with the smallest Euclidian distance. We can understand that if it has smaller distance, we have more similar features to that image. We also used different distance metric which is called Mahalanobis distance that uses also eigenvalues and sometimes gives better results in comparison with Euclidian distance. In order to recognize my face, I took 9 photos of myself from different angles and resized them to add to the training set. After training, I took another photo to test. At the end, the system could reconstruct and recognize my face correctly. (I also think that reconstruction has a poor quality.) We also got different correct results by Euclidian and Mahalanobis distance metrics which is quite interesting result for me. 
