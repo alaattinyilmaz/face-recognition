@@ -7,7 +7,7 @@ All the required equations and procedure below is explained in my report detaill
 
 I will be given an image dataset consisting of 10 images (56×46) taken from different views of 40 people. You can use 9 images per person to build your model and the rest for testing its performance. Note that, in the given dataset the images are already flattened and concatenated therefore it has 2576 (56×46) columns and 400 rows. A sample of the dataset is shown in the figure below:
 
-![Dataset](https://i.ibb.co/G0xZDz2/reconstruction.png)
+<img src="https://i.ibb.co/G0xZDz2/reconstruction.png" width="60%" height="%60">
 
 ### Face Reconstruction
 We will use PCA method to achieve face reconstruction. This method introduces dimensionality reduction. The space of all faces is a “subspace” of the space of all images. We suppose that it has K dimension. This K is chosen by the most effective K largest
